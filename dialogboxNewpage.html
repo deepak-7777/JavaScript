@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>New Page Example</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  h1 { color: #333; }
+  p { font-size: 18px; margin: 10px 0; color: #555; }
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s;
+  }
+  button:hover { background-color: #ff3b2f; }
+  img { max-width: 250px; margin: 20px 0; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+  .extra { margin-top: 20px; font-style: italic; color: #444; }
+</style>
+</head>
+<body>
+  <h1>Welcome to the New Page!</h1>
+  <p>Yeh ek example page hai jahan humne image, text aur button add kiya hai.</p>
+  <img src="rock.png" alt="Example Image">
+  <button onclick="alert('Button clicked!')">Click Me</button>
+  <button onclick="window.location.href='dialogbox.html'">Go to Home</button>
+  <p class="extra">Aur bhi content yahan add kiya ja sakta hai.</p>
+</body>
+</html>
+
+<!-- <script>          ///   alert open 
+document.getElementById('alertBtn').addEventListener('click', function() {
+alert('Button clicked!');
+});
+                       ///    go to first page 
+document.getElementById('backBtn').addEventListener('click', function() {
+window.location.href = 'index.html';
+});
+</script> -->

@@ -1,0 +1,185 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dialog Demo with Animation</title>
+<style>
+  body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    font-family:sans-serif;
+    background: #a7aeb9;
+  }
+  button {
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    background: #4caf50;
+    color: white;
+    transition: background 0.3s;
+  }
+  button:hover { background: #45a049; }
+  #dialog {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+  }
+  .box {
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    max-width: 300px;
+    width: 80%;
+  }
+  .box.show {
+    transform: scale(1);
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <button id="openBtn">Open Dialog</button>
+
+  <div id="dialog">
+    <div class="box">
+      <p>Yeh ek animated dialog box hai!</p>
+      <button id="closeBtn">Close</button>
+    </div>
+  </div>
+
+<script>
+  const openBtn = document.getElementById('openBtn');
+  const closeBtn = document.getElementById('closeBtn');
+  const dialog = document.getElementById('dialog');
+  const box = dialog.querySelector('.box');
+
+  openBtn.onclick = () => {
+    dialog.style.display = 'flex';
+    setTimeout(() => box.classList.add('show'), 10); // animation trigger
+  };
+
+  closeBtn.onclick = () => {
+    box.classList.remove('show');
+    setTimeout(() => dialog.style.display = 'none', 300); // wait for animation
+  };
+</script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dialog Demo with New Page</title>
+<style>
+  body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    font-family:sans-serif;
+    background: #f0f2f5;
+  }
+  button {
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+    background: #4caf50;
+    color: white;
+    transition: background 0.3s;
+  }
+  button:hover { background: #45a049; }
+  #dialog {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+  }
+  .box {
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    max-width: 300px;
+    width: 80%;
+  }
+  .box.show {
+    transform: scale(1);
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <button id="openBtn">Open Dialog</button>
+
+  <div id="dialog">
+    <div class="box">
+      <p>Yeh dialog box ab new page khol dega!</p>
+      <button id="openPageBtn">Go to New Page</button>
+    </div>
+  </div>
+
+<script>
+  const openBtn = document.getElementById('openBtn');
+  const openPageBtn = document.getElementById('openPageBtn');
+  const dialog = document.getElementById('dialog');
+  const box = dialog.querySelector('.box');
+
+  openBtn.onclick = () => {
+    dialog.style.display = 'flex';
+    setTimeout(() => box.classList.add('show'), 10);
+  };
+
+  openPageBtn.onclick = () => {
+    window.location.href = 'dialogboxNewpage.html';
+  };
+</script>
+</body>
+</html>

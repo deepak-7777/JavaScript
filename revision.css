@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+li {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+}
