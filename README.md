@@ -3,7 +3,7 @@
 This repository contains my practice work created while learning **JavaScript**. It includes various examples and implementations that helped me understand core JavaScript concepts and web interactivity.
 
 ---
- 
+  
 ## 📚 About
 
 The purpose of this project is to practice JavaScript fundamentals and learn how it is used to add logic and dynamic behavior to web pages.
