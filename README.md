@@ -7,7 +7,7 @@ This repository contains my practice work created while learning **JavaScript**.
 ## 📚 About
 
 The purpose of this project is to practice JavaScript fundamentals and learn how it is used to add logic and dynamic behavior to web pages.
-
+ 
 ---
  
 ## 🚀 Topics Covered
