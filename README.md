@@ -2,7 +2,7 @@
 
 This repository contains my practice work created while learning **JavaScript**. It includes various examples and implementations that helped me understand core JavaScript concepts and web interactivity.
 
---- 
+---  
   
 ## 📚 About
 
